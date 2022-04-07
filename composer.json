@@ -1,0 +1,31 @@
+{
+    "name": "brizhanev/laravel-tochka-cyclops-api",
+    "description": "Библиотека для использования Cyclops API Точка банка в проектах на фреймворке Laravel.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Brizhanev Oleg",
+            "email": "mr.brizhanev@yandex.ru"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.24",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brizhanev\\LaravelTochkaCyclopsApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brizhanev\\LaravelTochkaCyclopsApi\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
+    }
+}
